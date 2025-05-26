@@ -212,16 +212,23 @@ Implikasi: Data menunjukkan bahwa **gender dan durasi tidur mempengaruhi tingkat
 ---
 
 #### 4. Kesimpulan dan Rekomendasi
-Sintesiskan semua temuanmu dan berikan rekomendasi yang bisa diambil berdasarkan analisis.
+Dari analisis ini, terlihat jelas bahwa kesehatan mental siswa selama pembelajaran online dipengaruhi oleh berbagai faktor, meliputi demografi dan kebiasaan sehari-hari. Tingkat stres dan kecemasan adalah isu signifikan bagi banyak siswa, dengan adanya hubungan yang jelas antara kebiasaan tidur, aktivitas fisik, intensitas penggunaan gadget, dan tingkat stres.
 
-Kesimpulan Utama: Rangkum insight-insight kunci yang paling penting dari seluruh analisis.
-Rekomendasi: Berikan saran konkret berdasarkan temuanmu. Misalnya: "Perlunya program dukungan kesehatan mental di jenjang S1," atau "Mendorong aktivitas fisik yang lebih teratur pada siswa."
-Langkah Selanjutnya (Opsional): Apa yang bisa dieksplorasi lebih lanjut di masa depan? (Misal: "Membutuhkan data kualitatif untuk memahami faktor pemicu stres secara lebih mendalam," atau "Membangun model prediktif untuk mengidentifikasi siswa berisiko tinggi.")
+Rekomendasi Awal:
+- Program Dukungan Kesehatan Mental Terfokus: Mengembangkan program dukungan yang ditargetkan, khususnya untuk jenjang pendidikan yang menunjukkan tingkat stres dan kecemasan tinggi (misalnya, mahasiswa S1).
+- Peningkatan Kesadaran Gaya Hidup Sehat: Mengedukasi siswa tentang pentingnya durasi tidur yang cukup dan aktivitas fisik yang teratur sebagai bagian dari manajemen stres.
+- Strategi Penanganan Kecemasan Ujian: Memberikan strategi penanganan kecemasan sebelum ujian, terutama bagi kelompok yang paling rentan.
+
+Langkah Selanjutnya:
+- Kita dapat mengamati lebih lanjut hubungan antara kinerja akademik (performa akademik) dengan tingkat stres dan kecemasan siswa sebelum ujian.
+- Hasil analisis ini dapat dimanfaatkan sebagai modal awal untuk membuat program penanganan stres pada siswa berdasarkan jenjang pendidikan atau kebiasaan siswa, dengan tujuan akhir meningkatkan performa akademis siswa.  
+
+---
+
 #### 5. Struktur Proyek dan Cara Menjalankan
 Bagian ini membantu orang lain memahami struktur repositorimu dan bagaimana mereka bisa menjalankan proyekmu.
 
 Struktur Repositori: Tampilkan struktur folder proyekmu (seperti yang kita diskusikan sebelumnya).
-
 nama-project-kesehatan-mental-siswa/
 ├── data/
 │   └── student_mental_health.csv
@@ -234,8 +241,8 @@ nama-project-kesehatan-mental-siswa/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-Cara Menjalankan (Set up):
 
+### **Cara Menjalankan (Set up):**
 Kloning Repositori:
 Bash
 git clone https://github.com/namamu/nama-project-kesehatan-mental-siswa.git
@@ -243,25 +250,25 @@ cd nama-project-kesehatan-mental-siswa
 Buat dan Aktifkan Virtual Environment:
 Bash
 
-python -m venv venv
-# Windows: .\venv\Scripts\activate
-# macOS/Linux: source venv/bin/activate
+#### python -m venv venv
+#### Windows: .\venv\Scripts\activate
+#### macOS/Linux: source venv/bin/activate
 
   Instal Dependensi:
   Bash
-  pip install -r requirements.txt
+- pip install -r requirements.txt
   
   Menjalankan Analisis EDA (Jupyter Notebook):
   Bash
-  jupyter notebook notebooks/eda_analysis.ipynb
+- jupyter notebook notebooks/eda_analysis.ipynb
   
   Menjalankan Dashboard Streamlit:
   Bash
-- streamlit run src/dashboard_app.py
+- streamlit run Src/main.py
 
 #### 6. Kontak (Opsional)
 Jika kamu ingin orang lain bisa menghubungimu.
 
 LinkedIn: [Link Profil LinkedInmu]
 GitHub: [Link Profil GitHubmu]
-Email: [Alamat Emailmu]
+Email: []
