@@ -28,7 +28,7 @@ Berikut ringkasan kolom dan tujuannya:
 
 ---
 
-#### 3. Analisis Data Eksploratif (EDA) & Visualisasi
+### 3. Analisis Data Eksploratif (EDA) & Visualisasi
 Ini adalah bagian inti tempat kamu menyajikan temuan dan grafik. Untuk setiap pertanyaan analisis yang kamu pilih, buat sub-bagian terpisah.
 
 #### 3.1. Pertanyaan Analisis 1: [1. Profil Umum Kesehatan Mental Siswa Berdasarkan Demografi]
@@ -134,7 +134,7 @@ Implikasi:
 ---
 
 #### 3.2. Pertanyaan Analisis 2: [Dampak Kebiasaan Harian terhadap Kesehatan Mental]
-Tujuan Analisis: Menjelajahi hubungan antara kebiasaan gaya hidup siswa (waktu layar, durasi tidur, aktivitas fisik) dengan tingkat stres dan kecemasan mereka.
+#### Tujuan Analisis: Menjelajahi hubungan antara kebiasaan gaya hidup siswa (waktu layar, durasi tidur, aktivitas fisik) dengan tingkat stres dan kecemasan mereka.
 Pertanyaan Kunci:
 - Bagaimana waktu layar (Screen Time) yang tinggi berkaitan dengan tingkat stres? Apakah siswa dengan waktu layar lebih tinggi cenderung memiliki tingkat stres yang lebih tinggi?
 - Apakah durasi tidur (Sleep Duration) yang lebih panjang berhubungan dengan tingkat stres yang lebih rendah atau kurangnya kecemasan sebelum ujian?
