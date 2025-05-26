@@ -39,14 +39,13 @@ Ini adalah bagian inti tempat kamu menyajikan temuan dan grafik. Untuk setiap pe
 - Apakah ada variasi dalam indikator kesehatan mental ini di berbagai jenjang pendidikan?
 
 ##### Judul 3.1.1[Distribusi Keseluruhan Tingkat Stres]:
-Visualisasi:(visualizations/output_charts/nama_file_gambar.png))
+Visualisasi:([visualizations/General_stressDistribution.png](https://github.com/UndefinedE02/Analysis-MentalHealth-StudentOnlineLearning/blob/main/Visualization/General_stressDistribution.png))
 Temuan Utama: 
 - Mayoritas siswa berada pada tingkat **stres sedang**, dengan persentase sekitar **49%**.
 - Tingkat **stres rendah** menempati urutan kedua dengan persentase **32,7%**.
 - Sementara itu, sekitar **18%** siswa mengalami **stres tinggi**
   
 Implikasi: 
-
 - Data ini menunjukkan bahwa hampir **setengah dari siswa yang terdata mengalami stres sedang**, yang menandakan adanya tekanan psikologis yang cukup signifikan, meskipun belum mencapai kategori berat.
 - Sekitar **32,7% siswa berada pada tingkat stres rendah**, yang dapat diinterpretasikan sebagai kelompok dengan **kesehatan mental yang relatif stabil dan dalam kondisi aman**.
 - Meskipun jumlahnya lebih kecil, **sekitar 181 siswa atau 18% dari total** mengalami **tingkat stres tinggi**, yang mengindikasikan perlunya **perhatian dan intervensi lebih lanjut** untuk kelompok ini agar tidak berkembang menjadi gangguan mental yang lebih serius.
@@ -54,8 +53,7 @@ Implikasi:
 ---
 
 ##### Judul 3.1.2[Distribusi Tingkat Stres di Setiap Jenjang Pendidikan]:
-(Sisipkan gambar grafik di sini)
-Temuan Utama:
+Visualisasi:([visualizations/Education_level.png](https://github.com/UndefinedE02/Analysis-MentalHealth-StudentOnlineLearning/blob/main/Visualization/Education_Level.png))
 - **Jenjang Magister (S2)** menunjukkan tingkat stres **sedang** yang cukup tinggi, yaitu antara **45–60%**. Namun, variasi tingkat stres ini juga bergantung pada **program studi** yang diambil:
   - Beberapa program studi menunjukkan tingkat stres **rendah** sekitar **40–45%**.
   - Tingkat stres **tinggi** pada jenjang ini relatif rendah, berada di kisaran **15–25%**.
@@ -76,7 +74,7 @@ Implikasi:
 ---
 
 ##### Judul 3.1.3[Analisis Tingkat Kecemasan Siswa Sebelum Ujian Berdasarkan Jenjang Pendidikan]:
-
+Visualisasi:([visualizations/Anxious_EducationLevel.png](https://github.com/UndefinedE02/Analysis-MentalHealth-StudentOnlineLearning/blob/main/Visualization/Anxious_EducationLevel.png))
 Temuan utama: 
 #### 📌 Jenjang Sarjana (S1)
 - Mayoritas siswa pada jenjang **S1** menunjukkan **tingkat kecemasan yang paling tinggi** sebelum ujian.
@@ -107,9 +105,8 @@ Implikasi: Data ini dengan jelas menunjukkan adanya **hubungan antara jenjang pe
 ---
 
 ##### Judul 3.1.4[Durasi Tidur Berdasarkan Tingkat Stres]:
-
+Visualisasi:([visualizations/SleepingDurasion_stressLevel.png](https://github.com/UndefinedE02/Analysis-MentalHealth-StudentOnlineLearning/blob/main/Visualization/SleepingDurasion_stressLevel.png))
 Temuan utama: Rata-rata Durasi tidur pada setiap kategori tingkat stres dapat dijelaskan sebagai berikut:
-
 - **Stres Rendah:**
   - Q1 : 5,1 jam
   - Q2 : 6,6 jam
@@ -146,8 +143,7 @@ Pertanyaan Kunci:
 - **4,6 - 8,5 jam** → *Medium* (Sedang)
 - **> 8,5 jam** → *High* (Tinggi)
 
-
-
+Visualisasi:([visualizations/ScreenTime_stressLevel.png](https://github.com/UndefinedE02/Analysis-MentalHealth-StudentOnlineLearning/blob/main/Visualization/ScreenTime_stressLevel.png))
 Temuan Utama:
 - **Tingkat stres rendah** paling banyak ditemukan pada siswa yang menggunakan gadget dalam rentang waktu *sedang* (42,8%), diikuti oleh rentang *tinggi* (32,7%).
 - **Tingkat stres sedang** juga didominasi oleh penggunaan gadget dalam rentang *sedang* (42,2%), dan *tinggi* (32,5%).
@@ -166,8 +162,7 @@ Data menunjukkan adanya **keterkaitan antara tingkat stres siswa dan durasi peng
 - **2 - 4 jam** → *Medium* (Sedang)
 - **> 4 jam** → *High* (Tinggi)
 
-
-
+Visualisasi:([visualizations/PhysicalActivity_stressLevel.png](https://github.com/UndefinedE02/Analysis-MentalHealth-StudentOnlineLearning/blob/main/Visualization/PhysicalActivity_stressLevel.png))
 Temuan Utama:
 - **Siswa dengan tingkat stres rendah** paling banyak melakukan aktivitas fisik dengan intensitas *tinggi* (57,1%), diikuti oleh *sedang* (21%), dan *rendah* (20,9%).
 - **Siswa dengan tingkat stres sedang** tercatat 59,1% berada pada kategori aktivitas *tinggi*, 23,1% *sedang*, dan 17,8% *rendah*.
@@ -181,8 +176,8 @@ Implikasi: Data ini menunjukkan bahwa **aktivitas fisik memang berkaitan dengan 
 
 ##### Judul 3.1.3[Hubungan antara durasi tidur berdasarkan jenis kelamin dan tingkat stress berdasarkan durasi tidur]:
 
-
-
+- Visualisasi:([visualizations/Gender_sleepingTime.png](https://github.com/UndefinedE02/Analysis-MentalHealth-StudentOnlineLearning/blob/main/Visualization/Gender_sleepingTime.png))
+- Visualisasi:([visualizations/Gender_stressLevel.png](https://github.com/UndefinedE02/Analysis-MentalHealth-StudentOnlineLearning/blob/main/Visualization/Gender_stressLevel.png))
 
 Temuan Utama:
 - **Laki-laki:**
@@ -266,6 +261,6 @@ Bash
 #### 6. Kontak (Opsional)
 Jika kamu ingin orang lain bisa menghubungimu.
 
-LinkedIn: [Link Profil LinkedInmu]
-GitHub: [Link Profil GitHubmu]
-Email: []
+LinkedIn: [Link Profil LinkedIn](https://www.linkedin.com/in/eza-adila-672a65364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+GitHub: [[Link Profil GitHub](https://github.com/UndefinedE02)]
+Email: [ejaadilaaldefis@gmail.com]
