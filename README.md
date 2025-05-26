@@ -226,23 +226,19 @@ Langkah Selanjutnya:
 ---
 
 #### 5. Struktur Proyek dan Cara Menjalankan
-  Analysis_MentalHealth_StudentOnlineLearning/
-  |
-  ├── Dataset/
-  │   └── StudentMentalHealth.csv
-  |
-  ├── Notebooks/
-  │   └── analysis_data.ipynb
-  |
-  ├── src/
-  │   └── main.py
-  |
-  ├── visualizations/
-  │   └── output_charts/
-  |
-  ├── README.md
-  ├── requirements.txt
-  └── .gitignore
+Analysis_MentalHealth_/
+├── dataset/
+│   └── StudentMentalHealth.csvh.csv
+├── notebooks/
+│   └── analysis_data.ipynb
+├── src/
+│   └── main.py
+├── visualizations/
+│   └── output_charts/
+├── README.md
+└── requirements.txt
+
+
 
 ### **Cara Menjalankan (Set up):**
 Kloning Repositori:
