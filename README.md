@@ -247,15 +247,18 @@ Analysis_MentalHealth_/
 Kloning Repositori:
 Bash
 git clone https://github.com/UndefinedE02/Analysis-MentalHealth-StudentOnlineLearning/tree/main
-```
+
 
 Buat dan Aktifkan Virtual Environment:
 Bash
 python -m venv venv
-#### Windows: .\venv\Scripts\activate
-#### macOS/Linux: source venv/bin/activate
 
-```
+Windows:
+- .\venv\Scripts\activate
+macOS/Linux:
+- source venv/bin/activate
+
+
   Instal Dependensi:
   Bash
   pip install -r requirements.txt
