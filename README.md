@@ -226,19 +226,18 @@ Langkah Selanjutnya:
 ---
 
 #### 5. Struktur Proyek dan Cara Menjalankan
-Analysis_MentalHealth_/
-├── dataset/
-│   └── StudentMentalHealth.csvh.csv
-├── notebooks/
-│   └── analysis_data.ipynb
-├── src/
-│   └── main.py
-├── visualizations/
-│   └── output_charts/
-├── README.md
-└── requirements.txt
-
-
+Analysis_MentalHealth/
+├── dataset/                # Folder dataset (train dan test)
+│   ├── train/              # Data training
+│   ├── test/               # Data testing
+│
+├── Src/                    # Folder untuk menyimpan model dan modeling
+|  ├── best_model.h5        # Model dengan kualitas terbaik selama pelatihan berlangsung              
+|  ├── model.tflite         # Model dalam format TensorFlow Lite
+|  ├── Modeling.ipynb       # Notebook utama untuk analisis & training
+│
+├── requirements.txt        # Daftar dependensi
+├── README.md               # Dokumentasi proyek ini
 
 ### **Cara Menjalankan (Set up):**
 Kloning Repositori:
