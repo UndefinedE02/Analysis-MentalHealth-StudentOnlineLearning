@@ -244,28 +244,31 @@ Analysis_MentalHealth/
 ```
 
 ### **Cara Menjalankan (Set up):**
+```
 Kloning Repositori:
 Bash
-git clone https://github.com/namamu/nama-project-kesehatan-mental-siswa.git
-cd nama-project-kesehatan-mental-siswa
+git clone https://github.com/UndefinedE02/Analysis-MentalHealth-StudentOnlineLearning/tree/main
+```
+
 Buat dan Aktifkan Virtual Environment:
 Bash
-
-#### python -m venv venv
+python -m venv venv
 #### Windows: .\venv\Scripts\activate
 #### macOS/Linux: source venv/bin/activate
 
+```
   Instal Dependensi:
   Bash
-- pip install -r requirements.txt
+  pip install -r requirements.txt
   
   Menjalankan Analisis EDA (Jupyter Notebook):
   Bash
-- jupyter notebook notebooks/eda_analysis.ipynb
+  jupyter notebook notebooks/eda_analysis.ipynb
   
   Menjalankan Dashboard Streamlit:
   Bash
-- streamlit run Src/main.py
+  streamlit run Src/main.py
+```
 
 #### 6. Kontak (Opsional)
 Jika kamu ingin orang lain bisa menghubungimu.
