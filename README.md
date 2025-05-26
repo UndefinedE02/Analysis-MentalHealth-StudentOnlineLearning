@@ -226,21 +226,23 @@ Langkah Selanjutnya:
 ---
 
 #### 5. Struktur Proyek dan Cara Menjalankan
-Bagian ini membantu orang lain memahami struktur repositorimu dan bagaimana mereka bisa menjalankan proyekmu.
-
-Struktur Repositori: Tampilkan struktur folder proyekmu (seperti yang kita diskusikan sebelumnya).
-nama-project-kesehatan-mental-siswa/
-├── data/
-│   └── student_mental_health.csv
-├── notebooks/
-│   └── eda_analysis.ipynb
-├── src/
-│   └── dashboard_app.py
-├── visualizations/
-│   └── output_charts/
-├── README.md
-├── requirements.txt
-└── .gitignore
+  Analysis_MentalHealth_StudentOnlineLearning/
+  |
+  ├── Dataset/
+  │   └── StudentMentalHealth.csv
+  |
+  ├── Notebooks/
+  │   └── analysis_data.ipynb
+  |
+  ├── src/
+  │   └── main.py
+  |
+  ├── visualizations/
+  │   └── output_charts/
+  |
+  ├── README.md
+  ├── requirements.txt
+  └── .gitignore
 
 ### **Cara Menjalankan (Set up):**
 Kloning Repositori:
